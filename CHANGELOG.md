@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/Hanachi/test-semantic/compare/v1.0.0...v1.1.0) (2022-07-20)
+
+
+### Features
+
+* add feature file ([36408a3](https://github.com/Hanachi/test-semantic/commit/36408a3fe320e3b3c8cbb748d97c2d26884e0d4e))
+
 ## 1.0.0 (2022-07-19)
 
 
