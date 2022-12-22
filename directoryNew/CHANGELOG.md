@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Hanachi/test-semantic/compare/v1.1.0...v1.1.1) (2022-07-21)
+
+
+### Technical improvements
+
+* Squash and merge test ([#3](https://github.com/Hanachi/test-semantic/issues/3)) ([f263d24](https://github.com/Hanachi/test-semantic/commit/f263d2435afd6b6fffc7ad2da7573ad28d60c0a6))
+
 ## [1.1.0](https://github.com/Hanachi/test-semantic/compare/v1.0.0...v1.1.0) (2022-07-20)
 
 
