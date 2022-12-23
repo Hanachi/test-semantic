@@ -14,19 +14,16 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: ./directoryNew
 
       - name: Release
         uses: cycjimmy/semantic-release-action@v2
         with:
           semantic_version: 19.0.3
+          working_directory: ./directoryNew
           extra_plugins: |
             @semantic-release/changelog@6.0.1
             @semantic-release/git@10.0.1
         id: semantic
         env:
           GITHUB_TOKEN: ${{ github.token }}
-
-      - uses: actions/checkout@v2
-        if: steps.semantic.outputs.new_release_published == 'true'
-        with:
-          ref: v${{ steps.semantic.outputs.new_release_version }}
