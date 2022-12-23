@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/Hanachi/test-semantic/compare/v1.2.0...v1.3.0) (2022-12-23)
+
+
+### Features
+
+* Develop ([#24](https://github.com/Hanachi/test-semantic/issues/24)) ([0b0b08f](https://github.com/Hanachi/test-semantic/commit/0b0b08f8f832f6f53cecc550c9a740e4704fa69f)), closes [#21](https://github.com/Hanachi/test-semantic/issues/21)
+
 ## [1.2.0](https://github.com/Hanachi/test-semantic/compare/v1.1.1...v1.2.0) (2022-12-23)
 
 
