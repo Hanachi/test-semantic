@@ -25,3 +25,8 @@ jobs:
         id: semantic
         env:
           GITHUB_TOKEN: ${{ github.token }}
+
+      - uses: actions/checkout@v2
+        if: steps.semantic.outputs.new_release_published == 'true'
+        with:
+          ref: v${{ steps.semantic.outputs.new_release_version }}
